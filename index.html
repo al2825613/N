@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GameHub - مركز الألعاب</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>مرحبًا بك في مركز الألعاب!</h1>
+    <p>اختر لعبتك المفضلة واستمتع!</p>
+  </header>
+  
+  <section class="games-container">
+    <div class="game-card" onclick="playGame('subway')">
+      <img src="images/subway.jpg" alt="Subway Surfers" />
+      <h3>Subway Surfers</h3>
+    </div>
+
+    <div class="game-card" onclick="playGame('candy')">
+      <img src="images/candy.jpg" alt="Candy Crush" />
+      <h3>Candy Crush</h3>
+    </div>
+
+    <div class="game-card" onclick="playGame('flappy')">
+      <img src="images/flappy.jpg" alt="Flappy Bird" />
+      <h3>Flappy Bird</h3>
+    </div>
+
+    <div class="game-card" onclick="playGame('tic-tac-toe')">
+      <img src="images/tic-tac-toe.jpg" alt="Tic Tac Toe" />
+      <h3>Tic Tac Toe</h3>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 GameHub - جميع الحقوق محفوظة</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+  </html>
